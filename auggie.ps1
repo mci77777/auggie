@@ -1,4 +1,4 @@
-$filePath = "C:\Users\Administrator\AppData\Roaming\npm\node_modules\@augmentcode\auggie\augment.mjs"
+$filePath = "C:\**\**\AppData\Roaming\npm\node_modules\@augmentcode\auggie\augment.mjs"
 if (-not (Test-Path $filePath)) {
     Write-Error "错误：找不到文件 '$filePath'。请确认路径是否正确。"
     return
